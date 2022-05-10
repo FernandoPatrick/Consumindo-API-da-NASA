@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Nasalization";
+  src: url(../fontes/nasalization-rg.otf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: round;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #bebebeb7;
+  padding: 20px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  font-family: Nasalization;
+  font-size: 12px;
+}
+
+#logo img {
+  justify-content: center;
+  width: 5%;
+  height: 5%;
+}
+
+#lista  {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+#lista a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(208, 204, 204);
+  padding: 10px;
+  border-radius: 5px;
+  transition: .4s all ease-in-out;
+}
+
+#lista a:hover {
+  transform: scale(1.1);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 30px; 
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+#about p {
+  margin-bottom: 20px;
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+}
+
+#about input {
+  text-align: center;
+}
+
+#about h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+  padding: 30px;
+}
+
+form h3 {
+  margin-bottom: 20px;
+}
+
+#titulo {
+  color: white;
+}
+
+#imagem {
+  width: 30rem;
+  margin-bottom: 30rem;
+}
+
+#imagem-apod {
+  max-width: 50rem;
+  margin-bottom: 10px;
+}
+
+#coment {
+  padding: 1%;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  box-sizing: border-box;
+  background-color: #bebebeb7;
+  padding: 25px;
+  gap: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+#reservados a {
+  text-decoration: none;
+}
+
+#links {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
