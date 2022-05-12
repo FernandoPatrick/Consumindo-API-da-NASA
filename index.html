@@ -14,7 +14,7 @@
       <h1>{ NASA APIs }</h1>
       <img src="./assets/img/NASA-Logo-PNG-Picture.png" />
     </div>
-    <nav id="lista">
+    <nav id="nav">
       <a id="ftHoje" href="#">Foto de Hoje</a>
     </nav>
   </header>
@@ -24,13 +24,16 @@
         Foto astronômica do dia
       </h2>
       <p>
-        Descubra mais sobre astronomia! Todo dia uma foto ou imagem nova com
-        uma breve explicação escrita por um astronomo profissional.<br />Escolha
-        uma data, ou clique em Foto de Hoje e descubra mais sobre o cosmos disponibilizados pela NASA!
+        Desde o dia 16 de junho de 1995, a NASA posta uma imagem (ou vídeo) diferente relacionada à astronomia, com uma
+        breve explicação escrita por um astrônomo profissional.
+        Descubra mais sobre astronomia! Escolha
+        uma data, ou clique em Foto de Hoje e descubra mais sobre o espaço!
       </p>
 
-      <input id="data" type="date" />
-      <button id="enviar">Pesquisar</button>
+      <div id="inputs">
+        <input id="data" type="date" />
+        <button id="enviar">Ver foto/vídeo</button>
+      </div>
     </div>
     <form id="translate">
       <h3 id="titulo"></h3>
@@ -41,13 +44,14 @@
   </main>
   <footer id="rodape">
     <div id="reservados">
-      <p>2022 © Todos os direitos reservados - <a href="https://api.nasa.gov/">{ NASA APIs }</a> - Fernando
+      <p>2022 © Todos os direitos reservados - <a href="https://api.nasa.gov/" target="_blank">{ NASA APIs APOD }</a> -
+        Fernando
         Patrick</p>
     </div>
     <div id="links">
-      <a href="https://github.com/FernandoPatrick"><img src="./assets/img/github.png" alt="Página do Github"
-          id="github" /></a>
-      <a href="https://www.linkedin.com/in/fernandopatrick/"><img src="./assets/img/linkedin.png"
+      <a href="https://github.com/FernandoPatrick" target="_blank"><img src="./assets/img/github.png"
+          alt="Página do Github" id="github" /></a>
+      <a href="https://www.linkedin.com/in/fernandopatrick/" target="_blank"><img src="./assets/img/linkedin.png"
           alt="Página do Linkedin" id="linkedin" /></a>
     </div>
   </footer>
