@@ -27,13 +27,11 @@ html {
 
 body {
   height: 100vh;
+  width: 100%;
   background-image: url(../gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
   background-position: cover;
   background-size: 100%;
   background-repeat: round;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -86,11 +84,7 @@ header {
 main {
   width: 100%;
   height: 100%;
-}
-
-main {
-  width: 100%;
-  height: 100%;
+  display: block;
 }
 
 #about {
