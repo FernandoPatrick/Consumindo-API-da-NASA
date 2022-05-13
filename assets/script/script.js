@@ -1,15 +1,16 @@
 $("#enviar").click(function () {
-  let fadd = $("#data").val();
+  let data = $("#data").val();
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&date=${fadd}`,
+    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&date=${data}`,
     success: function (data) {
       console.log(data);
       if (data.media_type == "video") {
          $("#titulo").text(data.title);
          $("#imagem").css("display", "none");
-         $("#translate").html(`<iframe src=${data.url} style =" width: 700px; height: 400px; margin-bottom: 50px"> </iframe>`)
+         $("#translate").html(`<iframe class="iframe" src=${data.url} style =" width: 700px; height: 400px; margin-bottom: 50px"> </iframe>`)
          $("#coment").text(data.explanation);
       }else { 
+        $(".iframe").remove()
         $("#titulo").text(data.title);
         $("#imagem").css("display", "none");
         $("#imagem-apod").attr("src", data.url);

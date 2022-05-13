@@ -42,7 +42,7 @@ header {
   display: flex;
   align-items: center;
   background-color: #bebebeb7;
-  padding: 5px 80px;
+  padding: 5px 20px;
   justify-content: space-between;
 }
 
@@ -60,6 +60,8 @@ header {
 #nav  {
   display: flex;
   font-weight: bold;
+  gap: 30px;
+  align-items: center;
 }
 
 #nav a {
@@ -70,6 +72,11 @@ header {
   padding: 10px;
   border-radius: 5px;
   transition: .2s all ease-in-out;
+}
+
+#music {
+  height: 30px;
+  max-width: 300px;
 }
 
 #nav a:hover {
@@ -179,6 +186,7 @@ box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.24);
 #imagem-apod {
   /* max-width: 50rem; */
   margin-bottom: 10px;
+  width: 80%;
   -webkit-box-shadow: 0px 0px 12px 1px rgb(255, 255, 255); 
 box-shadow: 0px 0px 12px 1px rgba(255, 255, 255, 0.482);
 }
