@@ -14,3 +14,17 @@ https://fernandopatrick.github.io/Consumindo-API-da-NASA-APOD/
 
 
 ![image](https://user-images.githubusercontent.com/78447989/168388516-8058d5f8-7481-4c43-98ad-41ec6653454f.png)
+
+
+<div id="autor" align="center">
+
+  Criado e desenvolvido por [Fernando Patrick](https://www.linkedin.com/in/fernandopatrick/).
+
+ <div align="center"> 
+  <a href="mailto:fernando_lopes27@hotmail.com"><img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" height="40em" title="Enviar E-mail"></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/FernandoPatrick" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" height="40em" title="GitHub de FernandoPatrick"></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/fernandopatrick/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" height="40em" title="LinkedIn de Fernando"></a>
+  </div>
+</div>
