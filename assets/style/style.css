@@ -31,7 +31,6 @@ body {
   background-image: url(../gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
   background-position: cover;
   background-size: 100%;
-  background-repeat: round;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -45,24 +44,34 @@ header {
 }
 
 #logo {
+  flex: 1;
   display: flex;
   align-items: center;
   font-family: Nasalization;
-  font-size: 12px;
+}
+
+#logo h1 {
+  display: inline-block;
 }
 
 #logo img {
-  width: 40px;
+  max-width: 40px;
 }
 
 #nav  {
+  flex: 1;  
   display: flex;
   font-weight: bold;
-  gap: 30px;
   align-items: center;
+  justify-content: end;
+  gap: 30px;
+
 }
 
 #nav a {
+  flex: 1;
+  text-align: center;
+  max-width: 150px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-decoration: none;
@@ -75,6 +84,7 @@ header {
 #music {
   height: 30px;
   max-width: 300px;
+  flex: 2;
 }
 
 #nav a:hover {
@@ -160,6 +170,8 @@ main {
 #translate {
   text-align: center;
   padding: 30px;
+  width: 100%;
+  display: inline-block;
 }
 
 form h3 {
@@ -172,7 +184,7 @@ form h3 {
 }
 
 #imagem {
-  width: 50rem;
+  max-width: 50rem;
   -webkit-box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.24); 
 box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.24);
 }
@@ -181,6 +193,7 @@ box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.24);
   /* max-width: 50rem; */
   margin-bottom: 10px;
   width: 80%;
+  max-width: 50rem;
   -webkit-box-shadow: 0px 0px 12px 1px rgb(255, 255, 255); 
 box-shadow: 0px 0px 12px 1px rgba(255, 255, 255, 0.482);
 }
@@ -199,7 +212,6 @@ box-shadow: 0px 0px 12px 1px rgba(255, 255, 255, 0.482);
 
 #rodape {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
