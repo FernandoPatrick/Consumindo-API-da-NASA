@@ -1,7 +1,8 @@
 $("#enviar").click(function () {
   let data = $("#data").val();
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&date=${data}`,
+    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K
+=${data}`,
     success: function (data) {
       console.log(data);
       if (data.media_type == "video") {
