@@ -23,7 +23,8 @@ $("#enviar").click(function () {
 
 $("#ftHoje").click(function () {
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&`,
+    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K
+,
     type: "GET",
     success: function (data) {
       console.log(data);
