@@ -1,8 +1,8 @@
 $("#enviar").click(function () {
   let data = $("#data").val();
+  console.log(data)
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K
-=${data}`, 
+    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K&date=${data}`, 
     success: function (data) {
       console.log(data);
       if (data.media_type == "video") {
@@ -23,7 +23,7 @@ $("#enviar").click(function () {
 
 $("#ftHoje").click(function () {
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K
+    url: `https://api.nasa.gov/planetary/apod?api_key=zfhtcLDHueqsGIoHky7qyI6K5PDU1w1S5auNar6K`
 ,
     type: "GET",
     success: function (data) {
