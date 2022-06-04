@@ -7,7 +7,7 @@ para esta API com base em uma data específica e, a partir disso, exibir na pág
 imagem ou vídeo, com a descrição obtida.<br/>
 Utilizando HTML, CSS, JavaScript e jQuery.
 <br/>
-Segue o Link do Projeto:
+Link do Projeto on-line:
 <br/>
 https://fernandopatrick.github.io/Consumindo-API-da-NASA-APOD/
 <br/><br/>
