@@ -2,7 +2,7 @@ APOD<br/><br/>
 ● A Nasa disponibiliza uma série de API's que fornecem acesso aos seus projetos e sistemas.<br/>
 A "Astronomy Picture of the Day" (APOD) é uma API que fornece uma foto ou vídeo,
 diariamente, para que as pessoas consigam descobrir um pouco mais sobre o espaço.<br/>
-● Esse projeto consiste em criar uma aplicação capaz de realizar uma requisição
+● Esse projeto consiste em criar uma aplicação para realizar uma requisição
 para esta API com base em uma data específica e, a partir disso, exibir na página a
 imagem ou vídeo, com a descrição obtida.<br/>
 Utilizando HTML, CSS, JavaScript e jQuery.
